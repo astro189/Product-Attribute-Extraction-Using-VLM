@@ -20,4 +20,4 @@ if img_name not in os.listdir(IMG_DIR):
 img = Image.open(img_path)
 base_name = os.path.basename(img_path)
 ask_questions(img, base_name)
-run_ui()
+# run_ui()
