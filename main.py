@@ -2,7 +2,7 @@ import os
 from PIL import Image
 from CODE.image_stitching import unwrap_image
 from CODE.product_info import ask_questions
-from CODE.update_ui import run_ui
+# from CODE.update_ui import run_ui
 
 IMG_DIR = "./IMAGES"
 VIDEO_DIR = "./VIDEOS"
