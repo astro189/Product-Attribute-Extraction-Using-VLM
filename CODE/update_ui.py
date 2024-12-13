@@ -4,26 +4,26 @@ import json
 
 def run_ui():
     cred_dict = {
-        "type": "service_account",
-        "project_id": "flipkartgridred",
-        "private_key_id": "3b4001e7f86ab722e9b74f4dbf8a86756a48543e",
-        "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCw7yyU3qD/1Mtx\nuXNhblllPrB3kSr+wWnMQbx25kQLfhNPxdi1b0OHCDAcopX1PMDNyrlImGQCAM+K\ngTe+daxkypoWbrsJj7+v6KWHWvmw7MzQCC47vdCWCKEzE88cGxaZwXNOQMNmxrxe\ng056xAWredfcnbK7oi9w769XctVKME/M8XrpRT0CqLZzfWUS+5xfdZK49FSi1O7n\nxxaeJsNztgQtR4QPrP0b+FM9N4tNXZkHgVi8+uTaq18HdCsCpIQDqM5E2kXokJ+L\nmIzqOs8ETCPRmqz3gHz5+2I4N24LJGUAEs4e6MC/vvemws8ZYr2ZhhBJmJAimTL4\nHSIiZGV/AgMBAAECggEAQY3kBSY1HYRgejq9MpCZg4cGB87b0Laldb23T5BCDsX/\n7rL9dz+Jk+qnNLzSdaG0R6sAGhMIHqvhOU5l8mWT4WYlUAFnwAOoAEtgpPVChNg/\njCYzxwOtWCFLZGrG9gFdTstbZtdc7mPcn+Hjfl3JQf6rSTyOX7GYBS5w1yQfPVRq\nJs6H0eSGpFfNdmtZFqxacnl1de88HP2hKhV0x+h5ZuNT7XI7vglqoOONHenPfITF\n9A4tFc5fulsxtqOtSvXXwGw0Shi2R925++q4DmuTfVGqvtPsc+sMfdqSdiein+AJ\n6fAoZfV6rq/AU3bmEX17hkw3kRlO7xNA0lTmf/cgRQKBgQDenEMReCr+QYGYLlav\nfiGpscJIURCa0hkoFiE2tY01XPbjPEqYa8XxYfrnOeJHURdAFVMDGhkOXc05DcgE\nOXU1FFm7K408F8txcUtQviHcaDBuO95asgSn3IrEMrXh/UQ75KUeI4qcjquIzhRz\nfg/0QknxqGTvxbkFb1n9+wJxKwKBgQDLeQ1FcDEyZ53t7vFrapyF7IhKq6cU+89G\nN+c+IgOsIfI0ynu0Egsrb8lOyx+xPTjlFeDU1nrmnbsr0rj06n/P/9388zg2QOJt\nj0DMw0m8hR9yNbqvKuI6I5y3IJWxG4Q9AziRdsUHccdvAJWAmnKhqMGPAnDtqlPy\nSXL9Y3yq/QKBgQCmoDJ3fgo4XJIDdhP+shvCaELzXHJgYIjh/4aG6+gxnE9UkcmI\nQ4tbfaqPrz0XgrQzjIKhXMSKg13cqdsghl2cCIqN1jCWXX0zgckNO/QehYJS0M9D\n9eIUP7lC2G5aJPgRGLkbUSEsxIHTGeYm+KI6g+/TSeebrdUrI0kqGdufFwKBgFOD\nbOoKQXcRxmWJRDe1e2cQjWQwjhRzwkBs45HB/kXhbPsz/JANM95xNGwNvQVPPpHw\nZ+aT3b/YD6HODLIhqbIir+eJoJHMEeOr/4nLwfEJpr2GxgftjwsT4NfdHPOjeqRc\nNRSnbfk/Pv8Ve0dcnR4zGLbs5pL17Ryt/u93rQy1AoGANx2832HRW2aoZH+g03vg\nxXPICOSKyhZeUK/Tzfdpj2jVYJMf6Is+T1yNzgv4NMhrad2QFb3jPLtURP0pwdlG\nnW1rslP4/IdRt/zceBoa+bA9bD759FysKzO2CHxspiNoJzkirRSlj8jn60uQ3bSj\nHHs+0c/7sHKwhPVIWAMDlIQ=\n-----END PRIVATE KEY-----\n",
-        "client_email": "firebase-adminsdk-ndwm4@flipkartgridred.iam.gserviceaccount.com",
-        "client_id": "106841674203166213315",
-        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-        "token_uri": "https://oauth2.googleapis.com/token",
-        "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-        "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-ndwm4%40flipkartgridred.iam.gserviceaccount.com",
-        "universe_domain": "googleapis.com"
+    "type": "service_account",
+    "project_id": "flipkartgridred",
+    "private_key_id": "e35f50c1ac859882c8339fba67eb4a4a10d0dedc",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDIlVhFWYh2F8OG\nOW6Oyt91/yCkpfMRkons35YE/ahfQ86/oHv0Us22U/QwyCU/RgZHnXJ/3i8KD0jv\nGur41fgksEM07YIHFiO+MZ+p/hYIL2kZQPSFzmPjvOakflZu5bSOl7vUUJ/omhi4\nUVwRqu+fmX03ETO4zGshbZSWFr7/ypm1hVVQnE/3AZo02loyL8KR7zxDBDbxeLB8\nd0nZXJnzHP8hMRTfhHDVIQRaLA4ZMHR47qsdgh/244/kxbXAo2NXXVtGVQTuk3gr\naU42NQPTjT87L6Jx6IIOTqeG5LgQQnKkkxrHyj+u+Z9XCuYmLA58Ngw4Fkl1aQFV\n9mUqMAJlAgMBAAECggEAAZGYjlwSWF6Kiwr5gEUPeMpxrz8UkXkrlsHk5lv7SMtz\nvtOztkDo3dmhIPLDVSU9nHGNWSPGtbzgMtEyhXqUQemkxc35ugdZvjaAebpvGzu5\n6bL7kwmpaarj/R4FnCSlxBSeKR18Tx+CvN8vzUMgpcAeyHh4hsB4wD6C0jTLHPPm\nV8SDjGAGYf8Fh0O2O4H3xjXoPlbaNJ9q4SiAQPW5u15NzLpFftlejW8M4kyy7woP\nE00UEqhAhudkkHg5Zsk9u96k1UR31uu6urTBk6YqveAxQ2rvNxysmkwivwlGs0KQ\nqr+FtqoRCosYqfgaRpL3FDK7ILg+vKoa9Vfs0ZppgQKBgQD9tGxuf8IuX2uiEl8B\nxGii96Tss2rf/0VT9MCr14kZOvVZ0MH30u8pM6zBi7Jew/30mNIWsyWcfN6ixTsO\nHSp8yKo06pG2pOaVCx5n1uCzi+6zsKMDTy7pk5ogKw+OvrT6Qkdzy9gOGkOHMGmq\ntTOpLZIaMhF3H/V9Bdni9mQtBQKBgQDKZeSUBEmTZwwiY+begcRf1SnXWI4iiw57\n0car7aLgWK9b4Mwfiq439+RswLLlIKWYVegr/onC4qsDDpwzQnp45hUxKzh1Yl00\nQ8oCasdFb9SxzkQM8A6zk0D3NPmIDwwz23VSGBS/dJD5tOzqopLmzqbyIaLBV4cg\n6ysF2dV94QKBgBz00stp2YfhbC97WUyiVi8DhNdfQvt97zO945+5YfR3PjmaEglv\nEczqEPWmNB2M0RdxucjNeaV6uw5o5Gyf95F2dbbEbw0hlQ+9zSKc69iSSBRKPNDL\n4NbX+ediAsyQB6fomK8mvOofJUXwyJ6rP9I3WU2UGVo3U5WJbWzyIkzhAoGBAJg3\nWVkYgF0jOrUCfTcKUS3hmr4iE4NXIWVttwTGi6A+EmP/BIUUP0JIZLqFkgVQMDoJ\nIbs0i1bOMd7ytfa3IHScVYPNBYECoSYVdW+r7oICQOwYPIWeZPAY5tsENEZnSr4V\nZn5/LdtvRzkFIMi1y9VZxaSEN2tA8JeJRan40d8BAoGARWFEnctDEYpveKdfh6SC\naDGOztDhKeAOMnk/SVkPbQuwlfVKsK1TZp5QkZ4ME24kN+6Q7GvW3PtRs+dVRoJO\nLHGo7W9pyHz0zia2UryyIGMpDJ5n2o4b52FX79AvmezimZF3LLxC8tNBnkBQt96i\naMekjf/M9iBwbwdniWLBRLA=\n-----END PRIVATE KEY-----\n",
+    "client_email": "firebase-adminsdk-ndwm4@flipkartgridred.iam.gserviceaccount.com",
+    "client_id": "106841674203166213315",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-ndwm4%40flipkartgridred.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
     }
 
-
+# Initialize Firebase app with the credentials
     cred = credentials.Certificate(cred_dict)
     firebase_admin.initialize_app(cred, {
         'databaseURL': 'https://flipkartgridred-default-rtdb.asia-southeast1.firebasedatabase.app/'
     })
 
-    json_file_path = 'label_updated.json' 
+    json_file_path = 'product_info.json' 
 
     with open(json_file_path, 'r') as json_file:
         json_data = json.load(json_file)
@@ -38,3 +38,6 @@ def run_ui():
     new_product_ref = ref.push(last_entry)
 
     print(f"Data uploaded successfully. New product key: {new_product_ref.key}")
+
+if __name__ == "__main__":
+    run_ui()

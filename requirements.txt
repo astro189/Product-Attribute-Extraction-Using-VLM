@@ -1,0 +1,17 @@
+opencv-python
+numpy
+transformers
+trl
+peft
+bitsandbytes
+firebase-admin
+pyautogui
+jsonschema
+pyserial
+Pillow
+regex
+ultralytics
+# torch 2.5.0 cuda 11.8
+torch --index-url https://download.pytorch.org/whl/cu118
+torchvision --index-url https://download.pytorch.org/whl/cu118
+torchaudio --index-url https://download.pytorch.org/whl/cu118

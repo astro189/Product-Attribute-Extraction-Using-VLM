@@ -6,8 +6,8 @@ import numpy as np
 import pyautogui
 import time
 
-# Set up serial communication with Arduino
-arduino_port = 'COM6'  # Change this to your Arduino port
+
+arduino_port = 'COM6'  
 baud_rate = 9600
 ser = serial.Serial(arduino_port, baud_rate, timeout=1)
 

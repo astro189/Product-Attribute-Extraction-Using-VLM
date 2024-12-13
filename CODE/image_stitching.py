@@ -1,5 +1,6 @@
 import cv2
 import numpy as np
+import os
 
 def sharpen_img(image):
     kernel = np.array([[0, -1, 0],
@@ -45,7 +46,8 @@ def process_image(image):
     return sharpened
 
 
-def unwrap_image(video_path):
+def unwrap_image(video_path, img_path, show):
+
     cap = cv2.VideoCapture(video_path)
     frame_rate = cap.get(cv2.CAP_PROP_FPS)
     W, H = cap.get(cv2.CAP_PROP_FRAME_WIDTH), cap.get(cv2.CAP_PROP_FRAME_HEIGHT)
@@ -87,7 +89,8 @@ def unwrap_image(video_path):
 
             output_image[:, current_frame_start-overlap:current_frame_end-overlap] = middle_cols
         i+=1
-        # cv2.imshow("Product", frame)
+        if show==True:
+            cv2.imshow("Product", frame)
         if cv2.waitKey(30) & 0xFF == ord('q'):
             break
 
@@ -102,7 +105,7 @@ def unwrap_image(video_path):
 
     # output_image_show = cv2.resize(output_image, (int(output_image.shape[1]//8), int(output_image.shape[0]//8)))
     print(f"Output Shape:{output_image.shape}")
-    cv2.imwrite(".\IMAGES\output_image.png", output_image)
+    cv2.imwrite(img_path, output_image)
     print("Image Saved")
     # cv2.waitKey(0)
     # cv2.destroyAllWindows()
